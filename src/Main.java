@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-       Estudiante estudiante = new Estudiante("Ana", "Ingeniería",25);
-
-       estudiante.mostrarInformacion();
 
        Scanner scanner =new Scanner(System.in);
 
@@ -22,6 +19,8 @@ public class Main {
         System.out.print("Ingrese edad: ");
         int edad = scanner.nextInt();
 
+        Estudiante estudiante = new Estudiante (nombre, carrera, edad);
 
+        estudiante.mostrarInformacion();
     }
 }
