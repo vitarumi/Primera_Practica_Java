@@ -29,7 +29,10 @@ public class Main {
             System.out.println("Estudiante adulto.");
         }
 
-
         estudiante.mostrarInformacion();
+
+        for (int numeroRegistro = 1; numeroRegistro <= 5; numeroRegistro++){
+            System.out.println("Procesando estudiante " + numeroRegistro);
+    }
     }
 }
